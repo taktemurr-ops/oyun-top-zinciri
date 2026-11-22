@@ -1,0 +1,24 @@
+name: oyun_top_zinciri
+description: "Top Zinciri – Eşleştirme merkez uygulamasının oyunu."
+publish_to: none
+version: 1.0.0
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  studio_core:
+    git:
+      url: https://github.com/taktemurr-ops/studio-core
+      ref: 20b9a914f84c092c52ed8e5afddb56c0dcf3eca6
+  eslestirme_motoru:
+    git:
+      url: https://github.com/taktemurr-ops/eslestirme-motoru
+      ref: a8dc604395427fd9cffe5dd74cf11ee89cff0252
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
