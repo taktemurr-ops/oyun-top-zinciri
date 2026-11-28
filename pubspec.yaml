@@ -16,7 +16,7 @@ dependencies:
   eslestirme_motoru:
     git:
       url: https://github.com/taktemurr-ops/eslestirme-motoru
-      ref: 10c33918e86890297f297cc6207467b4601bc424
+      ref: a9a82b4a258f748572fbd86516776c8588331c1b
 
 dev_dependencies:
   flutter_test:
